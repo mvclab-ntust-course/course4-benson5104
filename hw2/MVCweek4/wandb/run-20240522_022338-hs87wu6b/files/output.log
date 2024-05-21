@@ -1,0 +1,39 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mScanning E:\homework\MVClab\week4\k-street-food\train\labels.cache... 377 images, 21 backgrounds, 0 corrupt: 100%|██████████| 377/377 [00:00<?, ?it/s]
+WARNING ⚠️ Box and segment counts should be equal, but got len(segments) = 926, len(boxes) = 998. To resolve this only boxes will be used and all segments will be removed. To avoid this please supply either a detect or segment dataset, not a detect-segment mixed dataset.
+WARNING ⚠️ Box and segment counts should be equal, but got len(segments) = 6, len(boxes) = 7. To resolve this only boxes will be used and all segments will be removed. To avoid this please supply either a detect or segment dataset, not a detect-segment mixed dataset.
+[34m[1mval: [39m[22mScanning E:\homework\MVClab\week4\k-street-food\valid\labels.cache... 5 images, 0 backgrounds, 0 corrupt: 100%|██████████| 5/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\homework\資訊安全導論\pythonProject2\MVCweek4\trainYolo.py", line 8, in <module>
+    results = model.train(data="E:\homework\MVClab\week4\k-street-food\data.yaml", epochs=100, imgsz=640)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\engine\model.py", line 674, in train
+    self.trainer.train()
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\engine\trainer.py", line 199, in train
+    self._do_train(world_size)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\engine\trainer.py", line 313, in _do_train
+    self._setup_train(world_size)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\engine\trainer.py", line 280, in _setup_train
+    self.test_loader = self.get_dataloader(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 55, in get_dataloader
+    return build_dataloader(dataset, batch_size, workers, shuffle, rank)  # return dataloader
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\data\build.py", line 135, in build_dataloader
+    return InfiniteDataLoader(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\ultralytics\data\build.py", line 39, in __init__
+    self.iterator = super().__iter__()
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\torch\utils\data\dataloader.py", line 435, in __iter__
+    return self._get_iterator()
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\torch\utils\data\dataloader.py", line 381, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\torch\utils\data\dataloader.py", line 1034, in __init__
+    w.start()
+  File "E:\Anaconda\envs\federated_learning\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "E:\Anaconda\envs\federated_learning\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "E:\Anaconda\envs\federated_learning\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "E:\Anaconda\envs\federated_learning\lib\multiprocessing\popen_spawn_win32.py", line 95, in __init__
+    set_spawning_popen(None)
+KeyboardInterrupt

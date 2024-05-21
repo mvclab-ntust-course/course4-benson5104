@@ -1,0 +1,204 @@
+2024-05-22 02:12:30,590 INFO    StreamThr :19172 [internal.py:wandb_internal():85] W&B internal server running at pid: 19172, started at: 2024-05-22 02:12:30.589885
+2024-05-22 02:12:30,591 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: status
+2024-05-22 02:12:30,593 INFO    WriterThread:19172 [datastore.py:open_for_write():87] open: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\run-39dce9a9.wandb
+2024-05-22 02:12:30,594 DEBUG   SenderThread:19172 [sender.py:send():378] send: header
+2024-05-22 02:12:30,595 DEBUG   SenderThread:19172 [sender.py:send():378] send: run
+2024-05-22 02:12:31,245 INFO    SenderThread:19172 [dir_watcher.py:__init__():211] watching files in: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files
+2024-05-22 02:12:31,252 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: check_version
+2024-05-22 02:12:31,305 INFO    SenderThread:19172 [sender.py:_start_run_threads():1123] run started: 39dce9a9 with start time 1716315150.590875
+2024-05-22 02:12:31,305 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: check_version
+2024-05-22 02:12:31,664 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: run_start
+2024-05-22 02:12:31,684 DEBUG   HandlerThread:19172 [system_info.py:__init__():26] System info init
+2024-05-22 02:12:31,684 DEBUG   HandlerThread:19172 [system_info.py:__init__():41] System info init done
+2024-05-22 02:12:31,684 INFO    HandlerThread:19172 [system_monitor.py:start():194] Starting system monitor
+2024-05-22 02:12:31,685 INFO    SystemMonitor:19172 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-22 02:12:31,687 INFO    HandlerThread:19172 [system_monitor.py:probe():214] Collecting system info
+2024-05-22 02:12:31,688 INFO    SystemMonitor:19172 [interfaces.py:start():188] Started cpu monitoring
+2024-05-22 02:12:31,688 INFO    SystemMonitor:19172 [interfaces.py:start():188] Started disk monitoring
+2024-05-22 02:12:31,689 INFO    SystemMonitor:19172 [interfaces.py:start():188] Started gpu monitoring
+2024-05-22 02:12:31,693 INFO    SystemMonitor:19172 [interfaces.py:start():188] Started memory monitoring
+2024-05-22 02:12:31,702 INFO    SystemMonitor:19172 [interfaces.py:start():188] Started network monitoring
+2024-05-22 02:12:31,704 DEBUG   HandlerThread:19172 [system_info.py:probe():150] Probing system
+2024-05-22 02:12:31,705 DEBUG   HandlerThread:19172 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-22 02:12:31,705 DEBUG   HandlerThread:19172 [system_info.py:probe():198] Probing system done
+2024-05-22 02:12:31,705 DEBUG   HandlerThread:19172 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-05-21T18:12:31.704306', 'startedAt': '2024-05-21T18:12:30.526998', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\homework\\資訊安全導論\\pythonProject2\\MVCweek4\\trainYolo.py', 'codePathLocal': 'trainYolo.py', 'codePath': 'trainYolo.py', 'host': 'LAPTOP-P0V925D3', 'username': 'benson', 'executable': 'E:\\Anaconda\\envs\\federated_learning\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1532.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 1532.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'/': {'total': 953.8525352478027, 'used': 495.5485954284668}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.726432800292969}}
+2024-05-22 02:12:31,705 INFO    HandlerThread:19172 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-22 02:12:31,705 INFO    HandlerThread:19172 [system_monitor.py:probe():227] Publishing system info
+2024-05-22 02:12:31,705 DEBUG   HandlerThread:19172 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-22 02:12:32,254 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\conda-environment.yaml
+2024-05-22 02:12:33,840 DEBUG   HandlerThread:19172 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-22 02:12:33,841 INFO    HandlerThread:19172 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-22 02:12:33,845 DEBUG   SenderThread:19172 [sender.py:send():378] send: files
+2024-05-22 02:12:33,845 INFO    SenderThread:19172 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-22 02:12:33,908 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-22 02:12:33,908 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: python_packages
+2024-05-22 02:12:33,908 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:12:33,969 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:12:34,265 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\conda-environment.yaml
+2024-05-22 02:12:34,265 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\wandb-metadata.json
+2024-05-22 02:12:34,265 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\requirements.txt
+2024-05-22 02:12:34,391 DEBUG   SenderThread:19172 [sender.py:send():378] send: telemetry
+2024-05-22 02:12:34,719 INFO    wandb-upload_0:19172 [upload_job.py:push():130] Uploaded file C:\Users\benson\AppData\Local\Temp\tmp_7vel5nzwandb\s9wpjcux-wandb-metadata.json
+2024-05-22 02:12:35,157 DEBUG   SenderThread:19172 [sender.py:send():378] send: exit
+2024-05-22 02:12:35,157 INFO    SenderThread:19172 [sender.py:send_exit():585] handling exit code: 1
+2024-05-22 02:12:35,157 INFO    SenderThread:19172 [sender.py:send_exit():587] handling runtime: 3
+2024-05-22 02:12:35,160 INFO    SenderThread:19172 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-22 02:12:35,160 INFO    SenderThread:19172 [sender.py:send_exit():593] send defer
+2024-05-22 02:12:35,160 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,160 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-22 02:12:35,160 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,161 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-22 02:12:35,161 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 1
+2024-05-22 02:12:35,161 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,161 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-22 02:12:35,161 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,161 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-22 02:12:35,161 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 2
+2024-05-22 02:12:35,161 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,161 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-22 02:12:35,161 INFO    HandlerThread:19172 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-22 02:12:35,161 DEBUG   SystemMonitor:19172 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-22 02:12:35,161 DEBUG   SystemMonitor:19172 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-22 02:12:35,161 DEBUG   SystemMonitor:19172 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-22 02:12:35,161 INFO    HandlerThread:19172 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-22 02:12:35,163 ERROR   gpu       :19172 [interfaces.py:aggregate():159] Failed to serialize metric: [WinError 1455] 分頁檔太小，無法完成操作。
+2024-05-22 02:12:35,163 INFO    HandlerThread:19172 [interfaces.py:finish():200] Joined disk monitor
+2024-05-22 02:12:35,164 ERROR   gpu       :19172 [interfaces.py:aggregate():159] Failed to serialize metric: [WinError 1455] 分頁檔太小，無法完成操作。
+2024-05-22 02:12:35,165 ERROR   gpu       :19172 [interfaces.py:aggregate():159] Failed to serialize metric: [WinError 1455] 分頁檔太小，無法完成操作。
+2024-05-22 02:12:35,172 ERROR   gpu       :19172 [interfaces.py:aggregate():159] Failed to serialize metric: [WinError 1455] 分頁檔太小，無法完成操作。
+2024-05-22 02:12:35,176 ERROR   gpu       :19172 [interfaces.py:aggregate():159] Failed to serialize metric: [WinError 1455] 分頁檔太小，無法完成操作。
+2024-05-22 02:12:35,176 INFO    HandlerThread:19172 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-22 02:12:35,176 INFO    HandlerThread:19172 [interfaces.py:finish():200] Joined memory monitor
+2024-05-22 02:12:35,176 INFO    HandlerThread:19172 [interfaces.py:finish():200] Joined network monitor
+2024-05-22 02:12:35,176 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 3
+2024-05-22 02:12:35,177 DEBUG   SenderThread:19172 [sender.py:send():378] send: stats
+2024-05-22 02:12:35,177 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,177 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-22 02:12:35,177 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 4
+2024-05-22 02:12:35,177 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,177 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-22 02:12:35,177 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-22 02:12:35,177 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 5
+2024-05-22 02:12:35,177 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,177 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-22 02:12:35,177 DEBUG   SenderThread:19172 [sender.py:send():378] send: summary
+2024-05-22 02:12:35,178 INFO    SenderThread:19172 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-22 02:12:35,178 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,178 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-22 02:12:35,178 INFO    SenderThread:19172 [sender.py:transition_state():613] send defer: 6
+2024-05-22 02:12:35,178 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: defer
+2024-05-22 02:12:35,178 INFO    HandlerThread:19172 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-22 02:12:35,178 DEBUG   SenderThread:19172 [sender.py:send_request():405] send_request: defer
+2024-05-22 02:12:35,178 INFO    SenderThread:19172 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-22 02:12:35,181 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:35,279 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\output.log
+2024-05-22 02:12:35,279 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\wandb-summary.json
+2024-05-22 02:12:36,165 DEBUG   HandlerThread:19172 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-22 02:12:36,166 INFO    HandlerThread:19172 [handler.py:finish():882] shutting down handler
+2024-05-22 02:12:36,166 INFO    WriterThread:19172 [datastore.py:close():296] close: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\run-39dce9a9.wandb
+2024-05-22 02:12:36,166 ERROR   StreamThr :19172 [internal.py:wandb_internal():173] Thread SenderThread:
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2188, in upsert_run
+    response = self.gql(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 312, in gql
+    ret = self._retry_gql(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 340, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connectionpool.py", line 772, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connectionpool.py", line 291, in _get_conn
+    if conn and is_connection_dropped(conn):
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\connection.py", line 20, in is_connection_dropped
+    return not conn.is_connected
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connection.py", line 262, in is_connected
+    return not wait_for_read(self.sock, timeout=0.0)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\wait.py", line 117, in wait_for_read
+    return wait_for_socket(sock, read=True, timeout=timeout)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\wait.py", line 53, in select_wait_for_socket
+    rready, wready, xready = fn(timeout)
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_util.py", line 48, in run
+    self._run()
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_util.py", line 99, in _run
+    self._process(record)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal.py", line 327, in _process
+    self._sm.send(record)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 385, in send
+    send_handler(record)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 407, in send_request
+    send_handler(record)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 635, in send_request_defer
+    self.debounce(final=True)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 536, in debounce
+    self._maybe_update_config(always=final)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 513, in _maybe_update_config
+    self._debounce_config()
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\sender.py", line 542, in _debounce_config
+    self._api.upsert_run(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\apis\normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2188, in upsert_run
+    response = self.gql(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 312, in gql
+    ret = self._retry_gql(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\internal\internal_api.py", line 340, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connectionpool.py", line 772, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connectionpool.py", line 291, in _get_conn
+    if conn and is_connection_dropped(conn):
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\connection.py", line 20, in is_connection_dropped
+    return not conn.is_connected
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\connection.py", line 262, in is_connected
+    return not wait_for_read(self.sock, timeout=0.0)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\wait.py", line 117, in wait_for_read
+    return wait_for_socket(sock, read=True, timeout=timeout)
+  File "E:\Anaconda\envs\federated_learning\lib\site-packages\urllib3\util\wait.py", line 53, in select_wait_for_socket
+    rready, wready, xready = fn(timeout)
+wandb.errors.CommError
+2024-05-22 02:12:37,306 INFO    Thread-16 :19172 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021230-39dce9a9\files\output.log

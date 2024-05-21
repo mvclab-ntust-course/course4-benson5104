@@ -1,0 +1,6 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ Box and segment counts should be equal, but got len(segments) = 926, len(boxes) = 998. To resolve this only boxes will be used and all segments will be removed. To avoid this please supply either a detect or segment dataset, not a detect-segment mixed dataset.
+[34m[1mtrain: [39m[22mScanning E:\homework\MVClab\week4\k-street-food\train\labels.cache... 377 images, 21 backgrounds, 0 corrupt: 100%|██████████| 377/377 [00:00<?, ?it/s]
+WARNING ⚠️ Box and segment counts should be equal, but got len(segments) = 6, len(boxes) = 7. To resolve this only boxes will be used and all segments will be removed. To avoid this please supply either a detect or segment dataset, not a detect-segment mixed dataset.

@@ -1,0 +1,105 @@
+2024-05-22 02:11:32,115 INFO    StreamThr :19608 [internal.py:wandb_internal():85] W&B internal server running at pid: 19608, started at: 2024-05-22 02:11:32.115196
+2024-05-22 02:11:32,117 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status
+2024-05-22 02:11:32,119 INFO    WriterThread:19608 [datastore.py:open_for_write():87] open: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\run-8bbhhzj6.wandb
+2024-05-22 02:11:32,119 DEBUG   SenderThread:19608 [sender.py:send():378] send: header
+2024-05-22 02:11:32,119 DEBUG   SenderThread:19608 [sender.py:send():378] send: run
+2024-05-22 02:11:32,877 INFO    SenderThread:19608 [dir_watcher.py:__init__():211] watching files in: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files
+2024-05-22 02:11:32,878 INFO    SenderThread:19608 [sender.py:_start_run_threads():1123] run started: 8bbhhzj6 with start time 1716315092.1162
+2024-05-22 02:11:32,880 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: check_version
+2024-05-22 02:11:32,880 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: check_version
+2024-05-22 02:11:33,253 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: run_start
+2024-05-22 02:11:33,282 DEBUG   HandlerThread:19608 [system_info.py:__init__():26] System info init
+2024-05-22 02:11:33,282 DEBUG   HandlerThread:19608 [system_info.py:__init__():41] System info init done
+2024-05-22 02:11:33,282 INFO    HandlerThread:19608 [system_monitor.py:start():194] Starting system monitor
+2024-05-22 02:11:33,282 INFO    SystemMonitor:19608 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-22 02:11:33,283 INFO    HandlerThread:19608 [system_monitor.py:probe():214] Collecting system info
+2024-05-22 02:11:33,286 INFO    SystemMonitor:19608 [interfaces.py:start():188] Started cpu monitoring
+2024-05-22 02:11:33,286 INFO    SystemMonitor:19608 [interfaces.py:start():188] Started disk monitoring
+2024-05-22 02:11:33,287 INFO    SystemMonitor:19608 [interfaces.py:start():188] Started gpu monitoring
+2024-05-22 02:11:33,292 INFO    SystemMonitor:19608 [interfaces.py:start():188] Started memory monitoring
+2024-05-22 02:11:33,301 INFO    SystemMonitor:19608 [interfaces.py:start():188] Started network monitoring
+2024-05-22 02:11:33,322 DEBUG   HandlerThread:19608 [system_info.py:probe():150] Probing system
+2024-05-22 02:11:33,323 DEBUG   HandlerThread:19608 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-22 02:11:33,323 DEBUG   HandlerThread:19608 [system_info.py:probe():198] Probing system done
+2024-05-22 02:11:33,323 DEBUG   HandlerThread:19608 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-05-21T18:11:33.323348', 'startedAt': '2024-05-21T18:11:32.050293', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\homework\\資訊安全導論\\pythonProject2\\MVCweek4\\trainYolo.py', 'codePathLocal': 'trainYolo.py', 'codePath': 'trainYolo.py', 'host': 'LAPTOP-P0V925D3', 'username': 'benson', 'executable': 'E:\\Anaconda\\envs\\federated_learning\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'/': {'total': 953.8525352478027, 'used': 495.5469779968262}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.726432800292969}}
+2024-05-22 02:11:33,323 INFO    HandlerThread:19608 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-22 02:11:33,323 INFO    HandlerThread:19608 [system_monitor.py:probe():227] Publishing system info
+2024-05-22 02:11:33,323 DEBUG   HandlerThread:19608 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-22 02:11:33,881 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\conda-environment.yaml
+2024-05-22 02:11:35,637 DEBUG   HandlerThread:19608 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-22 02:11:35,638 INFO    HandlerThread:19608 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-22 02:11:35,703 DEBUG   SenderThread:19608 [sender.py:send():378] send: files
+2024-05-22 02:11:35,703 INFO    SenderThread:19608 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-22 02:11:35,763 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-22 02:11:35,764 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: python_packages
+2024-05-22 02:11:35,764 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:11:35,765 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:11:35,891 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\conda-environment.yaml
+2024-05-22 02:11:35,891 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\requirements.txt
+2024-05-22 02:11:35,892 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\wandb-metadata.json
+2024-05-22 02:11:36,188 DEBUG   SenderThread:19608 [sender.py:send():378] send: telemetry
+2024-05-22 02:11:36,544 INFO    wandb-upload_0:19608 [upload_job.py:push():130] Uploaded file C:\Users\benson\AppData\Local\Temp\tmpoeuu2xemwandb\yl6v9ope-wandb-metadata.json
+2024-05-22 02:11:36,895 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_created():271] file/dir created: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:37,202 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:11:38,911 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:41,413 DEBUG   SenderThread:19608 [sender.py:send():378] send: telemetry
+2024-05-22 02:11:42,592 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:11:42,934 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:43,940 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:47,616 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:11:50,772 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:11:50,772 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:11:52,882 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:11:53,005 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:54,013 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\output.log
+2024-05-22 02:11:57,924 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:02,961 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:04,093 INFO    Thread-16 :19608 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\homework\資訊安全導論\pythonProject2\MVCweek4\wandb\run-20240522_021132-8bbhhzj6\files\config.yaml
+2024-05-22 02:12:05,791 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:12:05,792 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:12:09,098 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:14,126 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:19,172 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:20,811 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:12:20,812 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:12:25,133 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:30,161 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:33,309 DEBUG   SystemMonitor:19608 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-22 02:12:33,309 DEBUG   SenderThread:19608 [sender.py:send():378] send: stats
+2024-05-22 02:12:35,325 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:35,833 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:12:35,833 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:12:41,159 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:46,206 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:50,834 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:12:50,834 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:12:52,098 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:12:57,139 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:02,175 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:03,318 DEBUG   SenderThread:19608 [sender.py:send():378] send: stats
+2024-05-22 02:13:05,841 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:13:05,842 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:13:08,165 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:13,202 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:18,248 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:20,846 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:13:20,846 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:13:24,184 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:29,228 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:33,326 DEBUG   SenderThread:19608 [sender.py:send():378] send: stats
+2024-05-22 02:13:34,332 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:35,850 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:13:35,851 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:13:40,139 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:45,169 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:50,204 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:13:50,853 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:13:50,853 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:13:56,155 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:14:01,190 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:14:03,331 DEBUG   SenderThread:19608 [sender.py:send():378] send: stats
+2024-05-22 02:14:05,863 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-22 02:14:05,864 DEBUG   SenderThread:19608 [sender.py:send_request():405] send_request: stop_status
+2024-05-22 02:14:07,100 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:14:12,121 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
+2024-05-22 02:14:17,156 DEBUG   HandlerThread:19608 [handler.py:handle_request():158] handle_request: status_report
